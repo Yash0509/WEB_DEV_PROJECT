@@ -1,0 +1,69 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar .navbar-brand{
+    color: #8080ff;
+    font-size: 24px;
+}
+
+.nav-link:hover{
+    color: #8080ff !important;
+}
+#header{
+   background: url('header_bg.jpeg') no-repeat;
+   background-size: cover;
+    height: 92vh;
+}
+#header p{
+    color: black !important ;
+}
+/* #header button{
+    color: black ;
+} */
+#footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+#footer .first{
+    
+    margin-top: 125px;
+}
+#footer .second{
+    margin-left: 20px;
+    padding: 30px;
+}
+.social{
+    margin: 20px 0;
+}
+.social a{
+    margin-top: 20px;
+    margin-right:25px ;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+h1{
+    text-transform: uppercase;
+}
+.contact{
+    background-color: white;
+    height: 400px;
+    display: flex;
+    border-radius: 100px;
+    box-shadow: 5px 5px gray;
+    opacity: 0.8;
+    align-items: center;
+    justify-content:center;
+}
+.contact img{
+    height: 300px;
+}
+/* .contact p{
+    margin-left: -150px;
+} */
